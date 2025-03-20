@@ -1,0 +1,26 @@
+.hidden {
+    display: none;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-header {
+    border-bottom: 0;
+}
+
+#infoDisplay {
+    transition: all 0.3s ease;
+}
+
+#infoDisplay.hidden {
+    display: none;
+}
